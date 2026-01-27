@@ -7,7 +7,7 @@ pipeline {
         ECS_CLUSTER = "char_cluster"
         ECS_SERVICE = "order-service-task1-service-7rv8k6j3"
         IMAGE_TAG = "${BUILD_NUMBER}"
-        AWS_ACCOUNT_ID = "515966537510"
+        AWS_ACCOUNT_ID = "494676063663"
         ECR_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}"
     }
 
